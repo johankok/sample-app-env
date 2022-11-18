@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi9/ruby-30:1-70
+FROM registry.access.redhat.com/ubi9/ruby-30:1-74
 
 LABEL quay.expires-after=6w
 
