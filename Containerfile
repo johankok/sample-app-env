@@ -1,7 +1,5 @@
 FROM registry.access.redhat.com/ubi9/ruby-30:1-74
 
-LABEL quay.expires-after=6w
-
 USER 0
 ADD Gemfile Gemfile.lock ./
 RUN chown -R 1001:0 /usr/src
