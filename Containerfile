@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi9/ruby-30:1-74
+FROM registry.access.redhat.com/ubi9/ruby-30:1-108
 
 USER 0
 ADD Gemfile Gemfile.lock ./
